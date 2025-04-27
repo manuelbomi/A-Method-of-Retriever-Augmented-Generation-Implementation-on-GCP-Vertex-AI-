@@ -1,4 +1,4 @@
-# An-Implementation Method-of-Retriever-Augmented-Generation-on-GCP-Vertex-AI-
+# An Implementation Method of Retriever Augmented Generation (RAG) on GCP Vertex AI
 ### **OVERVIEW**
 In this discourse, we briefly discuss RAG and grounding methods of reducing hallucination in LLM and generative AI applications. We motivate the discussion by showing a complete example on GCP Vertex AI using publicly available Hertz Global Holdings, Inc data  
 
