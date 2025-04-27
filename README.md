@@ -42,11 +42,7 @@ Grounding is the goal of ensuring AI models are accurate and reliable by connect
 
 To start implementing a grounding solution for a company (Hertz Rental in our case), browse the Internet for publicly available Hertz's data. If possible, harvest unstructure data in various forms (text, pdf, videos, images etc). Log onto your GCP home page and search for Vertex AI.
 
-```
-> [!NOTE]
-> Please ensure that it is advisable to enable billing before you start this project on Vertex AI. Even if you are using the initial $300 GCP free use, enabling billing will ensure that your pipeline and data flow will not break. If you have exhausted your initial $300 free GCP usage, it is quite inexpensive to implement this solution on GCP Vertex AI.
-
-```
+---
 > [!IMPORTANT]
 > Please ensure that it is advisable to enable billing before you start this project on Vertex AI. Even if you are using the initial $300 GCP free use, enabling billing will ensure that your pipeline and data flow will not break. If you have exhausted your initial $300 free GCP usage, it is quite inexpensive to implement this solution on GCP Vertex AI..
 
