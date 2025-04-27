@@ -66,10 +66,12 @@ Select search assistant app
 ![Image](https://github.com/user-attachments/assets/661917e7-bfa6-4b4a-a489-e6d7f12cf6f3)
 
 ---
-4 Select Enterprise and Advanced LLM Features
+
+Select Enterprise and Advanced LLM Features
 ![Image](https://github.com/user-attachments/assets/43696f18-046c-486a-b6df-ac3785673ceb)
 ---
-5 Hertz clone internal search engine
+
+Hertz clone internal search engine
 ![Image](https://github.com/user-attachments/assets/ceac2700-38c5-414e-892c-d25e432393ba)
 ---
 6 Click create data store
