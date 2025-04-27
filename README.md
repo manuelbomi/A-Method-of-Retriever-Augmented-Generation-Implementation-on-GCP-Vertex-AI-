@@ -26,9 +26,13 @@ Grounding is the goal of ensuring AI models are accurate and reliable by connect
 ---
 [![Icons](https://skillicons.dev/icons?i=c,py,anaconda&theme=dark)](https://skillicons.dev)
 
+```
+> [!NOTE]
+> The parallel programs were executed and compiled in a Windows environment using CUDA Toolkit 12.3 utilizing the dedicated NVIDIA GeForce MX250 graphics card for executing the algorithms on the GPU.
+
+```
 
 
----
 
 ### **Background Discussion**
 
@@ -182,8 +186,4 @@ If you want a different language for the widget UI, edit the hl parameter from t
 > [!CAUTION]
 > To use as a widget in a pre-existing webpage, permissions must be given from the App's Vertex AI page for the pre-existing webpage to access the App whenever a user input queries to the App's prompt. 
 
-```
-> [!NOTE]
-> The parallel programs were executed and compiled in a Windows environment using CUDA Toolkit 12.3 utilizing the dedicated NVIDIA GeForce MX250 graphics card for executing the algorithms on the GPU.
 
-```
