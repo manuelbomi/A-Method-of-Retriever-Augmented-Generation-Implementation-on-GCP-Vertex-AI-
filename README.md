@@ -1,9 +1,9 @@
 # An Implementation Method of Retriever Augmented Generation (RAG) on GCP Vertex AI - A Case Study with Hertz Rental Data
 ### **OVERVIEW**
-In this discourse, we briefly discuss RAG and grounding as methods of reducing hallucination in large language models (LLMs) and generative AI applications. We motivate the discussion, and provide solutios by showing a complete example on GCP Vertex AI using publicly available Hertz Global Holdings, Inc data.  
+In this discourse, we briefly discuss RAG and grounding as methods of reducing hallucination in large language models (LLMs) and generative AI applications. We motivate the discourse and provide solutios by showing a complete example of grounding technique on GCP Vertex AI using publicly available Hertz Global Holdings, Inc data.  
 
 ---
-Vertex AI Studio is a Google Cloud console tool for rapidly prototyping and testing generative AI models. Vertex AI Search is available as part of the Vertex AI Studio and  it lets you create a custom search engine over your own data, websites, documents, cloud storage, Google drive, Databases, videos and third party connectors. 
+Vertex AI Studio is a Google Cloud console tool for rapidly prototyping and testing generative AI models. Vertex AI Search is available as part of the Vertex AI Studio and  it allow users to create custom search engine over their own data, websites, documents, cloud storage, Google drive, Databases, videos and third party connectors. 
 
 ---
 ### **Brief Overview of RAG and Grounding as Methods of Reducing LLM Hallucinations**
@@ -13,25 +13,27 @@ LLM hallucinations are inaccuracies or fabrications that occur when a LLM fabric
 ### Hallucination Mitigation Strategies
 #### Mitigation strategies:
 ##### Data Quality
-    (1)Improving training data. (2)Ensuring the training data is accurate, comprehensive, and free from biases. (3)Use data of high quality and ensure that the data captures the overall range of your desired objectives
+    (1)Use data of high quality to train LLMs. (2)Ensure the training data is accurate, comprehensive, and free from biases. (3) Ensure that the data captures the overall range of your desired objectives
 ##### Grounding Techniques
     Use cleansed and curated data and expose the LLM to the data's repository. This is the approach that we used in this discourse.
 ##### Retrieval-Augmented Generation (RAG)
-    Integrating real-time knowledge retrieval into the response generation process. The real time data may be harvested through a website, an API endpoint, or an OLAP database that stores real time company's data.
+    Integrate real-time knowledge retrieval methods into the response generation process. The real time data may be harvested through a website, an API endpoint, or an OLAP database that stores real time company's data.
 ##### Advanced prompting techniques
-     Using techniques like chain-of-thought prompting to guide the LLM's reasoning. 
+     Use techniques like chain-of-thought prompting to guide the LLM's reasoning. 
 ##### Prompt engineering
      Carefully crafting prompts to elicit more accurate and reliable responses
 
 ---
 ### Further Discussion on Grounding and RAG
 ##### Grounding
-     Grounding refers to the process of connecting language models (LLMs) to real-world referents, ensuring they understand and generate language in a contextually meaningful way. Grounding aims to enhance the accuracy, reliability, and relevance of AI-generated responses by grounding them in factual data. A customer service chatbot using RAG to provide answers based on a company's user manual would be an example of grounding. 
+     Grounding refers to the process of connecting language models (LLMs) to real-world references, ensuring they understand and generate language in a contextually meaningful way. Grounding aims to enhance the accuracy, reliability, and relevance of AI-generated responses by grounding them in factual data. A customer service chatbot using RAG to provide answers based on a company's user manual would be an example of grounding. 
 ---
 Grounding is a broader concept that encompasses RAG and other techniques, while RAG is a specific method for achieving grounding. 
 
+---
+
 ##### RAG
-RAG involves a retrieval step and integration with the LLM, while other grounding methods might involve fine-tuning or prompt engineering. RAG relies on readily available external data sources, while some grounding methods might require specialized knowledge bases or data products
+RAG involves a retrieval step and integration with the LLM, while other grounding methods might involve fine-tuning or prompt engineering. RAG relies on readily available external data sources, while some grounding methods might require specialized knowledge databases or data products
 
 ---
 Grounding is the goal of ensuring AI models are accurate and reliable by connecting them to real-world knowledge, while RAG is a specific technique used to achieve that goal by retrieving and incorporating external information into the generation process
@@ -40,23 +42,28 @@ Grounding is the goal of ensuring AI models are accurate and reliable by connect
 
 ### **Project: Method of Hallucination Reduction Using Hertz Rental Data on GCP Vertex AI**
 
-To start implementing a grounding solution for a company (Hertz Rental in our case), browse the Internet for publicly available Hertz's data. If possible, harvest unstructure data in various forms (text, pdf, videos, images etc). Log onto your GCP home page and search for Vertex AI.
+To start implementing a grounding solution for a company (Hertz Global Holding Inc. in our case), browse the Internet for publicly available Hertz's data. If possible, harvest unstructure data in various forms (text, pdf, videos, images etc). Log onto your GCP home page and search for Vertex AI.
 
 ---
 > [!IMPORTANT]
-> Please ensure that it is advisable to enable billing before you start this project on Vertex AI. Even if you are using the initial $300 GCP free use, enabling billing will ensure that your pipeline and data flow will not break. If you have exhausted your initial $300 free GCP usage, it is quite inexpensive to implement this solution on GCP Vertex AI..
+> Please ensure that you enable billing before you start this project on Vertex AI. Even if you are using the initial $300 GCP free use, enabling billing will ensure that your pipeline and data flow will not break. If you have exhausted your initial $300 free GCP usage, it is quite inexpensive to implement this solution on GCP Vertex AI..
 
+--- 
 
----
 Create acVertex AI project and app. Select search App to create a custom search engine
+
 ![Image](https://github.com/user-attachments/assets/01525f1b-79c0-4f6a-8320-f9f177851db5)
 
 ---
-2 Set billing and press continue and activate the API
+
+Set billing and press continue. Activate the API
+
 ![Image](https://github.com/user-attachments/assets/5a19bc8a-3748-4037-bbba-68b6bcf9e81a)
 
 ---
-**3 select search assistant app  **
+
+Select search assistant app  
+
 ![Image](https://github.com/user-attachments/assets/661917e7-bfa6-4b4a-a489-e6d7f12cf6f3)
 
 ---
