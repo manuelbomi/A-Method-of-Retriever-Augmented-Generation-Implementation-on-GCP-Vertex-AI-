@@ -74,112 +74,106 @@ Select Enterprise and Advanced LLM Features
 
 ![Image](https://github.com/user-attachments/assets/ceac2700-38c5-414e-892c-d25e432393ba)
 ---
-Give your App a name (Hertz Internal Search Engine in our case). Click create data store.
+Give your App a name (Hertz-Clone Intranet Search Engine in our case). Click create data store.
 ![Image](https://github.com/user-attachments/assets/cc4af316-7865-4850-a64f-b613738f8ecc)
 ---
-7 Different types of data stores can be selected
+Different types of data stores (BigQuery, Websites, Databases, Local Storage etc) can be selected
 ![Image](https://github.com/user-attachments/assets/e3d69b61-0d5d-4a16-89fa-5d90296e3795)
 ![Image](https://github.com/user-attachments/assets/eb3e912a-4f15-4394-a192-c29618af818c)
 ![Image](https://github.com/user-attachments/assets/94412c6f-0ba8-40e0-b30e-5b9de0d8b080)
 ---
 
-8 Open another homepage an dsearch for Google CLoud Storage
+Open another homepage link and search for Google Cloud Storage
 ![Image](https://github.com/user-attachments/assets/abd45a15-9a88-44ff-84b9-905b1d6a641a)
 
 ![Image](https://github.com/user-attachments/assets/d766d1e3-4729-496e-8850-42c0cb05877e)
 ---
-9 create bucket
+Create a bucket and enforce public access prevention to secure your data
 ![Image](https://github.com/user-attachments/assets/c439d767-7a93-4efa-a0ca-551e153e5d5d)
----
-10 enforce public access prevention
+
 ![Image](https://github.com/user-attachments/assets/c366d1dc-4877-4eae-97e9-936d3d8ef818)
+
 ---
-11 to transfer data into your folder, click on Upload and select files from your PC
+To transfer data into your folder, click on Upload and select files from your PC
 ![Image](https://github.com/user-attachments/assets/bffc75d4-ee05-4f02-a6bc-c7ed0b9bef41)
 
 ---
-11 Transfer data into your folder
+
+Transfer data into your folder
 ![Image](https://github.com/user-attachments/assets/0970b9a0-fa3b-4f47-bf37-2301fade2098)
 
 ---
-12 select all the files and upload them
+Select all the files and upload them
 ![Image](https://github.com/user-attachments/assets/063d1809-34bf-48d5-9ff2-e39b2027eff3)
 
 ---
-13 select to load unstructured files
+Select to load unstructured files
 ![Image](https://github.com/user-attachments/assets/766ff951-26f7-4f08-8bdf-f3ea23cd0810)
 
 ---
-14 browse for the folder that ypu want to upload
+Browse for the folder that you want to upload
 ![Image](https://github.com/user-attachments/assets/52c37077-430f-4a7e-bb0b-6589562d25e5)
 
 ---
-15 give the data store a name and note the ID given to you as you will need it later
+Give the data store a name and note the ID given to you as you will need it later
 ![Image](https://github.com/user-attachments/assets/542200a2-dbb8-4990-b30e-a17ed470bb46)
 ---
-16 click create and select the created datastore
+Click create and select the created datastore
 ![Image](https://github.com/user-attachments/assets/978a427e-c44a-4d0f-9ce3-4cb10d1913e1)
 ![Image](https://github.com/user-attachments/assets/996aa8dd-5ecc-4e41-a75b-f6e643cd9d8f)
 ![Image](https://github.com/user-attachments/assets/31917658-6606-4445-9047-970121ddd956)
 ---
-17 The Hertz App is created
+The Hertz-Clone App is created
 ![Image](https://github.com/user-attachments/assets/c7eaa2ff-da18-4937-8d1f-8593efb88e22)
 ---
-18 Preview of the App
+Preview of the App
 ![Image](https://github.com/user-attachments/assets/33140e00-afc5-46a3-b573-668fbb050300)
 ---
-19 test the app
+Test the app
 ![Image](https://github.com/user-attachments/assets/eeb681c9-4b30-4a99-b7f8-076405112df1)
 ---
-20 the app suggests how I may ask questions
+The app suggests how users may ask questions
 ![Image](https://github.com/user-attachments/assets/cc8a33fa-ccb9-4f6f-92d3-f12a4bdb1177)
 ---
-21 I changed my search query
+Users can change their search query
 ![Image](https://github.com/user-attachments/assets/48e27588-8112-4363-8ff9-b18ec0ff3677)
 ---
-22 It also listed documnets that I can check further
+It also listed documents that could provide additional insights.
 ![Image](https://github.com/user-attachments/assets/0fbd24ab-6cfe-4092-b18d-a165a3387344)
 ---
-23 different answer configuartion types
-23 You can click on any of the cited documents and read through it
+It shows ifferent answer configuartion types. Users can click on any of the cited documents and read through.
 ![Image](https://github.com/user-attachments/assets/7f4e17e2-d5c5-42e8-a0a6-5d46c7d16ff0)
 ---
-24 Search with follow ups - conversational AI
+It is also capable of providing suggested follow up questions as part of its prompt output - conversational AI
 ![Image](https://github.com/user-attachments/assets/16e3e14a-0e50-4695-8c20-9bb4860b226d)
 ---
-25 Search wt follo ups
+Some search using the follow-up questions
 ![Image](https://github.com/user-attachments/assets/b097bfa4-3742-4649-b256-195832ebb53f)
----
-26 Ask follow up questions
+
 ![Image](https://github.com/user-attachments/assets/7f2e06d5-d322-441f-a646-2b82df61251a)
 ---
-27 widget calls  can be used to access the website
+Widget calls  can be used to access the website
 ![Image](https://github.com/user-attachments/assets/afd24eaa-63b3-44cc-aa8e-07a58217c1de)
 ---
-28 API calls are also possible
+API calls are also possible
 ![Image](https://github.com/user-attachments/assets/62511c18-ad58-4caa-bd6f-d7277dda1675)
 ---
-29 you can get result with a cloud shell
+Users can also get result with via cloud shell
 ![Image](https://github.com/user-attachments/assets/46523a4c-ebf8-4e41-8df2-d2612c270656)
 ---
 
-30 You can obatin metrics about your website through a Looker dashboard
+Users can obatin metrics about your website through a Looker dashboard
 ![Image](https://github.com/user-attachments/assets/2c226bfd-a7e1-49b1-b86b-fab91600ffe5)
 
 ---
-31 comparison of per page and per search visit using Looker dashboard
+Metrics about per page and per search visit is possible through Looker dashboard
 
 ![Image](https://github.com/user-attachments/assets/a84d12d6-ec86-4c0f-8641-995a6ebbbd53)
 
 ---
-
-Copy the following code to your web application
-Copy the following snippet into your web page to add a "Search here" link. Users click "Search here" to open the widget. By default, the reCAPTCHA badge is displayed. To hide the reCAPTCHA badge, see reCAPTCHA documentation. 
-If you want a different language for the widget UI, edit the hl parameter from the script URL. See Languages 
-
-
+### To integrate the search app as part of a pre-existing webpage
 > [!TIP]
-> Here, the projects can be intergrated onto a pre-existing webpage in form of a widget. Fro  the widget, it can be used by a customer or staff in form of the company's intranet. Upon a query, it will access the company's intranet and use _grounding_ to fetch the customer a most relevant response to the user's queries. It will access the in It can also be deployed as an API endpoint. Here, we show the code that may be used to deploy it as a widget in a pre-existing webpage:
+> The projects can be intergrated onto a pre-existing webpage in form of a widget. From  the widget, it can be used by a customer or staff as part of the Hertz-Clone company's intranet. Upon a query, it will access the company's intranet and use _grounding_ to fetch the customer that is most relevant response to the user's queries.  Here, we show an example code that may be used to deploy it as a widget in a pre-existing webpage:
 
 > WIDGET FOR INTRANET SEARCH 
 
