@@ -36,12 +36,11 @@ RAG relies on readily available external data sources, while some grounding meth
 In essence:
 Grounding is the goal of ensuring AI models are accurate and reliable by connecting them to real-world knowledge, while RAG is a specific technique used to achieve that goal by retrieving and incorporating external information into the generation process
 
----
-[![Icons](https://skillicons.dev/icons?i=c,py,anaconda&theme=dark)](https://skillicons.dev)
+
 
 ```
 > [!NOTE]
-> The parallel programs were executed and compiled in a Windows environment using CUDA Toolkit 12.3 utilizing the dedicated NVIDIA GeForce MX250 graphics card for executing the algorithms on the GPU.
+> Please ensure that it is advisable to enable billing before you start this project on Vertex AI. Even if you are using the initial $300 GCP free use, enabling billing will ensure that your pipeline and data flow will not break. If you have exhausted your initial $300 free GCP usage, it is quite inexpensive to implement this solution on GCP Vertex AI.
 
 ```
 
@@ -49,14 +48,14 @@ Grounding is the goal of ensuring AI models are accurate and reliable by connect
 
 ### **Background Discussion**
 
-To solve the All-Pairs Shortest Path (APSP) problem using Dijkstra's algorithm, one can execute $n$ instances of the Single-Source Shortest Path (SSSP) problem for each of the $n$ source vertices. Both in the sequential and parallel versions, this adaptation of the algorithm mentioned earlier is used to solve the APSP. However, the main difference in executions and performance lies in the utilization of a parallelization strategy adopted by the parallel version.
+To start implementing a grounding solution for a company (Hertz Rental in our case), browse the Internet for publicly available data. If possible, harvest unstructure data in various forms (text, pdf, videos, images etc). Log onto your GCP home page and search for Vertex AI.
 
 > [!IMPORTANT]
-> In the CUDA code, the source is partitioned in such a way that each thread in the kernel is responsible for processing a specific vertex of the graph, thus calculating the shortest path from this vertex to all others. In other words, it executes Dijkstra's algorithm in its variation for SSSP.
+> Please ensure that it is advisable to enable billing before you start this project on Vertex AI. Even if you are using the initial $300 GCP free use, enabling billing will ensure that your pipeline and data flow will not break. If you have exhausted your initial $300 free GCP usage, it is quite inexpensive to implement this solution on GCP Vertex AI..
 
 
 ---
-1 create Vertex AI project and app. Select search App to create a custom search engine
+Create acVertex AI project and app. Select search App to create a custom search engine
 ![Image](https://github.com/user-attachments/assets/01525f1b-79c0-4f6a-8320-f9f177851db5)
 
 ---
