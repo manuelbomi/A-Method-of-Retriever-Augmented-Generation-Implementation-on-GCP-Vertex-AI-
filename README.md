@@ -53,13 +53,7 @@ Create a Vertex AI project and app. Select 'Create a new Search app' to create a
 
 ---
 
-Set billing and press continue. Activate the API
-
-![Image](https://github.com/user-attachments/assets/5a19bc8a-3748-4037-bbba-68b6bcf9e81a)
-
----
-
-Select search assistant app  
+Set billing. Attach the project to a billing method. Activate the API. Select search assistant app  
 
 ![Image](https://github.com/user-attachments/assets/661917e7-bfa6-4b4a-a489-e6d7f12cf6f3)
 
@@ -68,7 +62,6 @@ Select search assistant app
 Select Enterprise and Advanced LLM Features
 ![Image](https://github.com/user-attachments/assets/43696f18-046c-486a-b6df-ac3785673ceb)
 ---
-
 
 ![Image](https://github.com/user-attachments/assets/ceac2700-38c5-414e-892c-d25e432393ba)
 ---
