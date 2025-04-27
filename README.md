@@ -48,18 +48,20 @@ To start implementing a grounding solution for a company (Hertz Global Holding I
 
 --- 
 Create a Vertex AI project and app. Select 'Create a new Search app' to create a custom search engine
+Your app will use the Vertex AI agent.
 
 ![Image](https://github.com/user-attachments/assets/01525f1b-79c0-4f6a-8320-f9f177851db5)
 
 ---
 
-Set billing. Attach the project to a billing method. Activate the API. Select search assistant app  
+Set billing. Attach the project to a billing method. Activate the API.
 
 ![Image](https://github.com/user-attachments/assets/661917e7-bfa6-4b4a-a489-e6d7f12cf6f3)
 
 ---
 
 Select Enterprise and Advanced LLM Features
+Select search assistant app  
 ![Image](https://github.com/user-attachments/assets/43696f18-046c-486a-b6df-ac3785673ceb)
 ---
 
