@@ -60,8 +60,8 @@ Set billing. Attach the project to a billing method. Activate the API.
 
 ---
 
-Select Enterprise and Advanced LLM Features
-Select search assistant app  
+Select 'Search and assistant' app. Select Enterprise and Advanced LLM Features
+
 ![Image](https://github.com/user-attachments/assets/43696f18-046c-486a-b6df-ac3785673ceb)
 ---
 
