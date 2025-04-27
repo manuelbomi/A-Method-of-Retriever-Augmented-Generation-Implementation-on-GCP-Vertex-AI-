@@ -200,17 +200,20 @@ If you want a different language for the widget UI, edit the hl parameter from t
 > To use as a widget in a pre-existing webpage, permissions must be given from the App's Vertex AI page for the pre-existing webpage to access the App whenever a user input queries to the App's prompt.
 
 ---
+Thank you for reading through
+
+---
 
 Author's Background
 
 ```
 > [!NOTE]
-> Author's Name: Emmanuel Oyekanlu
-**Skillset**:   I have experience spanning several years with developing scalable data pipelines, architecting enetrprise data solutions, deep learning and LLM applications as well as deploying solutions (apps) on-prem and in the cloud. I acn be reached through: manuelbomi@yahoo.com
-##### Website: http://emmanueloyekanlu.com/
-Publications: https://scholar.google.com/citations?user=S-jTMfkAAAAJ&hl=en
-LinkedIn: https://www.linkedin.com/in/emmanuel-oyekanlu-6ba98616
-Github: https://github.com/manuelbomi
+> Author's Name:  _Emmanuel Oyekanlu_
+_Skillset_:   I have experience spanning several years with developing scalable data pipelines, architecting enetrprise data solutions, deep learning and LLM applications as well as deploying solutions (apps) on-prem and in the cloud. I acn be reached through: manuelbomi@yahoo.com
+Website:  http://emmanueloyekanlu.com/
+Publications:  https://scholar.google.com/citations?user=S-jTMfkAAAAJ&hl=en
+LinkedIn:  https://www.linkedin.com/in/emmanuel-oyekanlu-6ba98616
+Github:  https://github.com/manuelbomi
 
 ```
 
