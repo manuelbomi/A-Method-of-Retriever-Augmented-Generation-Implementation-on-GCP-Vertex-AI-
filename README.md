@@ -71,10 +71,10 @@ Select Enterprise and Advanced LLM Features
 ![Image](https://github.com/user-attachments/assets/43696f18-046c-486a-b6df-ac3785673ceb)
 ---
 
-Hertz clone internal search engine
+
 ![Image](https://github.com/user-attachments/assets/ceac2700-38c5-414e-892c-d25e432393ba)
 ---
-6 Click create data store
+Give your App a name (Hertz Internal Search Engine in our case). Click create data store.
 ![Image](https://github.com/user-attachments/assets/cc4af316-7865-4850-a64f-b613738f8ecc)
 ---
 7 Different types of data stores can be selected
