@@ -200,7 +200,7 @@ If you want a different language for the widget UI, edit the hl parameter from t
 > To use as a widget in a pre-existing webpage, permissions must be given from the App's Vertex AI page for the pre-existing webpage to access the App whenever a user input queries to the App's prompt.
 
 ---
-[![Icons](https://skillicons.dev/icons?i=aws, azure, gcp,ai,kafka,scala,linux,matlab,mongodb,redis,mysql,postgres,nodejs,c,py,react,vue,anaconda,docker,kubernetes,git,github&theme=dark)](https://skillicons.dev)
+[![Icons](https://skillicons.dev/icons?i=aws, azure, gcp&theme=dark)](https://skillicons.dev)
 
 ```
 > [!NOTE]
