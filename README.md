@@ -155,10 +155,11 @@ API calls are also possible
 ![Image](https://github.com/user-attachments/assets/46523a4c-ebf8-4e41-8df2-d2612c270656)
 ---
 
-Users can obtain metrics about your website through a Looker dashboard
 ![Image](https://github.com/user-attachments/assets/2c226bfd-a7e1-49b1-b86b-fab91600ffe5)
 
 ---
+
+Users can obtain metrics about your website through a Looker dashboard.
 Metrics about per page and per search visit is possible through Looker dashboard
 
 ![Image](https://github.com/user-attachments/assets/a84d12d6-ec86-4c0f-8641-995a6ebbbd53)
