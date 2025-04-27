@@ -208,15 +208,13 @@ Author's Background
 
 ```
 > [!NOTE]
-> Author's Name:  _Emmanuel Oyekanlu_
-_Skillset_:   I have experience spanning several years with developing scalable data pipelines, architecting enetrprise data solutions, deep learning and LLM applications as well as deploying solutions (apps) on-prem and in the cloud. I acn be reached through: manuelbomi@yahoo.com
+Author's Name:  _Emmanuel Oyekanlu_
+Skillset:   I have experience spanning several years in developing scalable data pipelines, architecting enterprise data solutions, deep learning and LLM applications as well as deploying solutions (apps) on-prem and in the cloud. I can be reached through: manuelbomi@yahoo.com
 Website:  http://emmanueloyekanlu.com/
 Publications:  https://scholar.google.com/citations?user=S-jTMfkAAAAJ&hl=en
 LinkedIn:  https://www.linkedin.com/in/emmanuel-oyekanlu-6ba98616
 Github:  https://github.com/manuelbomi
 
 ```
-
-
 
 [![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
