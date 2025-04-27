@@ -122,10 +122,10 @@ The Hertz-Clone App is created
 Preview of the App
 ![Image](https://github.com/user-attachments/assets/33140e00-afc5-46a3-b573-668fbb050300)
 ---
-Test the app
+Test the app. The app can suggests how users may ask questions
 ![Image](https://github.com/user-attachments/assets/eeb681c9-4b30-4a99-b7f8-076405112df1)
 ---
-The app suggests how users may ask questions
+
 ![Image](https://github.com/user-attachments/assets/cc8a33fa-ccb9-4f6f-92d3-f12a4bdb1177)
 ---
 Users can change their search query
@@ -151,11 +151,11 @@ Widget calls  can be used to access the website
 API calls are also possible
 ![Image](https://github.com/user-attachments/assets/62511c18-ad58-4caa-bd6f-d7277dda1675)
 ---
-Users can also get result with via cloud shell
+
 ![Image](https://github.com/user-attachments/assets/46523a4c-ebf8-4e41-8df2-d2612c270656)
 ---
 
-Users can obatin metrics about your website through a Looker dashboard
+Users can obtain metrics about your website through a Looker dashboard
 ![Image](https://github.com/user-attachments/assets/2c226bfd-a7e1-49b1-b86b-fab91600ffe5)
 
 ---
