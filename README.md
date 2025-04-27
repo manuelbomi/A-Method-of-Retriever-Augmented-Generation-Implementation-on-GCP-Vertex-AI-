@@ -186,5 +186,7 @@ If you want a different language for the widget UI, edit the hl parameter from t
 
 > [!NOTE]
 > The App must be running on the Vertex AI Applications page even if the user uses the App in form of a widget on their own pre-existing web page.
-
+---
 [![Icons](https://skillicons.dev/icons?i=c,py,anaconda&theme=dark)](https://skillicons.dev)
+
+===
