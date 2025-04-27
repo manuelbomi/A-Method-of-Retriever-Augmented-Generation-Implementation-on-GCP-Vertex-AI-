@@ -159,7 +159,7 @@ API calls are also possible
 
 ---
 
-Users can obtain metrics about your website through a Looker dashboard.
+Users can obtain metrics about the App usage through a Looker dashboard.
 Metrics about per page and per search visit is possible through Looker dashboard
 
 ![Image](https://github.com/user-attachments/assets/a84d12d6-ec86-4c0f-8641-995a6ebbbd53)
@@ -169,7 +169,7 @@ Metrics about per page and per search visit is possible through Looker dashboard
 > [!TIP]
 > The projects can be intergrated onto a pre-existing webpage in form of a widget. From  the widget, it can be used by a customer or staff as part of the Hertz-Clone company's intranet. Upon a query, it will access the company's intranet and use _grounding_ to fetch the customer that is most relevant response to the user's queries.  Here, we show an example code that may be used to deploy it as a widget in a pre-existing webpage:
 
-> WIDGET FOR INTRANET SEARCH 
+> Widget for Linking the App to Pre-existing Website 
 
 ```ruby
 <!-- Widget JavaScript bundle -->
