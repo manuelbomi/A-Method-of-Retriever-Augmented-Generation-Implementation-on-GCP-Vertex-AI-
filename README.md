@@ -47,7 +47,7 @@ To start implementing a grounding solution for a company (Hertz Global Holding I
 > Please ensure that you enable billing before you start this project on Vertex AI. Even if you are using the initial $300 GCP free use option, enabling billing will ensure that your pipeline and data flow will not break. If you have exhausted your initial $300 free GCP use option, it is quite inexpensive to implement this solution on GCP Vertex AI.
 
 --- 
-Create a Vertex AI project and app. Select 'Search App' to create a custom search engine
+Create a Vertex AI project and app. Select 'Create a new Search app' to create a custom search engine
 
 ![Image](https://github.com/user-attachments/assets/01525f1b-79c0-4f6a-8320-f9f177851db5)
 
