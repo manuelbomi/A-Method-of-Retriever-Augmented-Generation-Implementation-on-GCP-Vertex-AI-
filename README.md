@@ -182,11 +182,8 @@ If you want a different language for the widget UI, edit the hl parameter from t
 > [!CAUTION]
 > To use as a widget in a pre-existing webpage, permissions must be given from the App's Vertex AI page for the pre-existing webpage to access the App whenever a user input queries to the App's prompt. 
 
-```
 
 > [!NOTE]
-> The App must be running on the Vertex AI Applications page even if the user uses the App in form of a widget on their own pre-existing web page.
----
-
+> The parallel programs were executed and compiled in a Windows environment using CUDA Toolkit 12.3 utilizing the dedicated NVIDIA GeForce MX250 graphics card for executing the algorithms on the GPU.
 
 
