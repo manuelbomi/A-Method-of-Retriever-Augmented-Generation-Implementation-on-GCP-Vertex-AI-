@@ -1,13 +1,13 @@
 # An Implementation Method of Retriever Augmented Generation (RAG) on GCP Vertex AI - A Case Study with Hertz Rental Data
 ### **OVERVIEW**
-In this discourse, we briefly discuss RAG and grounding as methods of reducing hallucination in large language models (LLMs) and generative AI applications. We motivate the discourse and provide solutios by showing a complete example of grounding technique on GCP Vertex AI using publicly available Hertz Global Holdings, Inc data.  
+In this discourse, we briefly discuss RAG and grounding as methods of reducing hallucination in large language models (LLMs) and generative AI applications. We motivate the discourse and provide solutions by showing a complete example of grounding technique on GCP Vertex AI using publicly available Hertz Global Holdings, Inc data.  
 
 ---
 Vertex AI Studio is a Google Cloud console tool for rapidly prototyping and testing generative AI models. Vertex AI Search is available as part of the Vertex AI Studio and  it allow users to create custom search engine over their own data, websites, documents, cloud storage, Google drive, Databases, videos and third party connectors. 
 
 ---
 ### **Brief Overview of RAG and Grounding as Methods of Reducing LLM Hallucinations**
-LLM hallucinations are inaccuracies or fabrications that occur when a LLM fabricate results that are untrue. These errors can range from small factual inaccuracies, faithfulness hallucinations to complete fabrications or nonsensical responses.
+LLM hallucinations are inaccuracies or fabrications that occur when a LLM generate results that are untrue. These errors can range from small factual inaccuracies, faithfulness hallucinations to complete fabrications or nonsensical responses.
 
 ---
 ### Hallucination Mitigation Strategies
@@ -33,23 +33,21 @@ Grounding is a broader concept that encompasses RAG and other techniques, while 
 ---
 
 ##### RAG
-RAG involves a retrieval step and integration with the LLM, while other grounding methods might involve fine-tuning or prompt engineering. RAG relies on readily available external data sources, while some grounding methods might require specialized knowledge databases or data products
+RAG involves a retrieval step and then, integration with the LLM, while other grounding methods might involve fine-tuning or prompt engineering. RAG relies on readily available external data sources, while some grounding methods might require specialized knowledge databases or data products
 
 ---
-Grounding is the goal of ensuring AI models are accurate and reliable by connecting them to real-world knowledge, while RAG is a specific technique used to achieve that goal by retrieving and incorporating external information into the generation process
-
-
+Grounding has the goal of ensuring that AI models are accurate and reliable by connecting them to real-world knowledge, while RAG is a specific technique used to achieve that goal by retrieving and incorporating external information into the generation process.
 
 ### **Project: Method of Hallucination Reduction Using Hertz Rental Data on GCP Vertex AI**
 
-To start implementing a grounding solution for a company (Hertz Global Holding Inc. in our case), browse the Internet for publicly available Hertz's data. If possible, harvest unstructure data in various forms (text, pdf, videos, images etc). Log onto your GCP home page and search for Vertex AI.
+To start implementing a grounding solution for a company (Hertz Global Holding Inc. in our case), browse the Internet for publicly available Hertz's data. If possible, harvest unstructured data in various forms (text, pdf, videos, images etc). Log onto your GCP home page and search for Vertex AI.
 
 ---
 > [!IMPORTANT]
-> Please ensure that you enable billing before you start this project on Vertex AI. Even if you are using the initial $300 GCP free use, enabling billing will ensure that your pipeline and data flow will not break. If you have exhausted your initial $300 free GCP usage, it is quite inexpensive to implement this solution on GCP Vertex AI..
+> Please ensure that you enable billing before you start this project on Vertex AI. Even if you are using the initial $300 GCP free use option, enabling billing will ensure that your pipeline and data flow will not break. If you have exhausted your initial $300 free GCP use option, it is quite inexpensive to implement this solution on GCP Vertex AI.
 
 --- 
-Create a Vertex AI project and app. Select search App to create a custom search engine
+Create a Vertex AI project and app. Select 'Search App' to create a custom search engine
 
 ![Image](https://github.com/user-attachments/assets/01525f1b-79c0-4f6a-8320-f9f177851db5)
 
