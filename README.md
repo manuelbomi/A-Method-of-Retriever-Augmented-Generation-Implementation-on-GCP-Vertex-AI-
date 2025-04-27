@@ -1,12 +1,25 @@
 # An Implementation Method of Retriever Augmented Generation (RAG) on GCP Vertex AI - A Case Study with Hertz Rental Data
 ### **OVERVIEW**
-In this discourse, we briefly discuss RAG and grounding methods of reducing hallucination in LLM and generative AI applications. We motivate the discussion by showing a complete example on GCP Vertex AI using publicly available Hertz Global Holdings, Inc data  
+In this discourse, we briefly discuss RAG and grounding as methods of reducing hallucination in large language models (LLMs) and generative AI applications. We motivate the discussion, and provide solutios by showing a complete example on GCP Vertex AI using publicly available Hertz Global Holdings, Inc data.  
 
-Vertex AI Studio is a Google Cloud console tool for rapidly prototyping and testing generative AI 
-models.
+---
+Vertex AI Studio is a Google Cloud console tool for rapidly prototyping and testing generative AI models. Vertex AI Search is available as part of the Vertex AI Studio and  it lets you create a custom search engine over your own data, websites, documents, cloud storage, Google drive, Databases, videos and third party connectors. 
 
-Vertex AI Search lets you create a custom search engine over your own data, including websites, 
-Documents, documents, cloud storage, Google drive, Databases, videos and 3rd party connectors. 
+---
+### **Brief Overview of RAG and Grounding as Methods of Reducing LLM Hallucinations**
+LLM hallucinations are inaccuracies or fabrications that occur when a LLM fabricate results that are untrue. These errors can range from small factual inaccuracies, faithfulness hallucinations to complete fabrications or nonsensical responses.
+
+---
+### Hallucination Mitigation Strategies
+
+Mitigation strategies:
+
+    Improving training data: Ensuring the training data is accurate, comprehensive, and free from biases. 
+
+Retrieval-Augmented Generation (RAG): Integrating real-time knowledge retrieval into the response generation process. 
+Advanced prompting techniques: Using techniques like chain-of-thought prompting to guide the LLM's reasoning. 
+Prompt engineering: Carefully crafting prompts to elicit more accurate and reliable responses
+
 •	Definition:
 Grounding refers to the process of connecting language models (LLMs) to real-world referents, ensuring they understand and generate language in a contextually meaningful way. 
 •	Purpose:
