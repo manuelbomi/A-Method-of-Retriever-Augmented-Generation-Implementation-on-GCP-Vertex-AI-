@@ -7,10 +7,25 @@ models.
 
 Vertex AI Search lets you create a custom search engine over your own data, including websites, 
 Documents, documents, cloud storage, Google drive, Databases, videos and 3rd party connectors. 
+•	Definition:
+Grounding refers to the process of connecting language models (LLMs) to real-world referents, ensuring they understand and generate language in a contextually meaningful way. 
+•	Purpose:
+Grounding aims to enhance the accuracy, reliability, and relevance of AI-generated responses by grounding them in factual data. 
+•	Example:
+A customer service chatbot using RAG to provide answers based on a company's user manual would be an example of grounding. 
+Key Differences:
+•	Scope:
+Grounding is a broader concept that encompasses RAG and other techniques, while RAG is a specific method for achieving grounding. 
+•	Implementation:
+RAG involves a retrieval step and integration with the LLM, while other grounding methods might involve fine-tuning or prompt engineering. 
+Data Sources:
+RAG relies on readily available external data sources, while some grounding methods might require specialized knowledge bases or data products
+In essence:
+Grounding is the goal of ensuring AI models are accurate and reliable by connecting them to real-world knowledge, while RAG is a specific technique used to achieve that goal by retrieving and incorporating external information into the generation process
 
 
 
-[![Icons](https://skillicons.dev/icons?i=c,py,anaconda&theme=dark)](https://skillicons.dev)
+
 
 > [!NOTE]
 > The parallel programs were executed and compiled in a Windows environment using CUDA Toolkit 12.3 utilizing the dedicated NVIDIA GeForce MX250 graphics card for executing the algorithms on the GPU.
@@ -186,4 +201,4 @@ The block and grid sizes in both CUDA algorithms were configured according to th
 'DIJKSTRA COMPARISON' $ nvcc -o dijkstra_comparison .\dijkstra_comparison.cu
 ```
 
-
+[![Icons](https://skillicons.dev/icons?i=c,py,anaconda&theme=dark)](https://skillicons.dev)
