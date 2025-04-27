@@ -134,10 +134,10 @@ Users can change their search query
 It also listed documents that could provide additional insights.
 ![Image](https://github.com/user-attachments/assets/0fbd24ab-6cfe-4092-b18d-a165a3387344)
 ---
-It shows different answer configuartion types. Users can click on any of the cited documents and read through.
+It shows different answer configuration types. Users can click on any of the cited documents and read through.
 ![Image](https://github.com/user-attachments/assets/7f4e17e2-d5c5-42e8-a0a6-5d46c7d16ff0)
 ---
-It is also capable of providing suggested follow up questions as part of its prompt output - conversational AI
+It is also capable of providing suggested follow up questions as part of its prompt output - Conversational AI
 ![Image](https://github.com/user-attachments/assets/16e3e14a-0e50-4695-8c20-9bb4860b226d)
 ---
 Some search using the follow-up questions
