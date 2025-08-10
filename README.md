@@ -198,7 +198,7 @@ Author's Background
 > [!NOTE]
 Author's Name:  Emmanuel Oyekanlu
 Skillset:   I have experience spanning several years in developing scalable enterprise data pipelines,
-solution architecture, architecting enterprise data solutions, deep learning and LLM applications as
+solution architecture, architecting enterprise data and AI solutions, deep learning and LLM applications as
 well as deploying solutions (apps) on-prem and in the cloud.
 
 I can be reached through: manuelbomi@yahoo.com
