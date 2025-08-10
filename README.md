@@ -188,7 +188,7 @@ Metrics about per page and per search visit is possible through Looker dashboard
 > To use as a widget in a pre-existing webpage, permissions must be given from the App's Vertex AI page for the pre-existing webpage to access the App whenever a user input queries to the App's prompt.
 
 ---
-Thank you for reading through
+Thank you for reading.
 
 ---
 
